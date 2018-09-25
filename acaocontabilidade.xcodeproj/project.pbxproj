@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A910E180819A9B87E397F09 /* Pods_acaocontabilidade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB71E382EDB64E82B9682077 /* Pods_acaocontabilidade.framework */; };
+		492D368D2140CCEB008338BB /* ChatSentMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D368C2140CCEB008338BB /* ChatSentMessageViewCell.swift */; };
+		492D368F2140CCFD008338BB /* ChatReceivedMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D368E2140CCFD008338BB /* ChatReceivedMessageViewCell.swift */; };
+		495EF21D2108A73E00139466 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495EF21C2108A73E00139466 /* ChatTableViewCell.swift */; };
+		495EF21F2108A89D00139466 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495EF21E2108A89D00139466 /* ChatTableViewController.swift */; };
 		496AF0E72103C6420088272F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AF0E62103C6420088272F /* AppDelegate.swift */; };
-		496AF0E92103C6420088272F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496AF0E82103C6420088272F /* ViewController.swift */; };
 		496AF0EC2103C6420088272F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496AF0EA2103C6420088272F /* Main.storyboard */; };
 		496AF0EF2103C6420088272F /* acaocontabilidade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 496AF0ED2103C6420088272F /* acaocontabilidade.xcdatamodeld */; };
 		496AF0F12103C6440088272F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496AF0F02103C6440088272F /* Assets.xcassets */; };
 		496AF0F42103C6440088272F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496AF0F22103C6440088272F /* LaunchScreen.storyboard */; };
+		496AF0FC2103C8640088272F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 496AF0FB2103C8640088272F /* GoogleService-Info.plist */; };
+		49911ED82103E40D006BDF18 /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911ED72103E40D006BDF18 /* CustomNavigationViewController.swift */; };
+		49911EDC2103E779006BDF18 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911EDB2103E779006BDF18 /* CadastroViewController.swift */; };
+		49911EE021050CC3006BDF18 /* SiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911EDF21050CC3006BDF18 /* SiteViewController.swift */; };
+		49911EE221051450006BDF18 /* DocumentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911EE121051450006BDF18 /* DocumentosViewController.swift */; };
+		49911EE42105FBD5006BDF18 /* BoasVindasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911EE32105FBD5006BDF18 /* BoasVindasViewController.swift */; };
+		49911EFD2107A03B006BDF18 /* ConversasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911EFC2107A03B006BDF18 /* ConversasTableViewController.swift */; };
+		49911F012107A36F006BDF18 /* ConversasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911F002107A36F006BDF18 /* ConversasTableViewCell.swift */; };
+		49911F032107AB32006BDF18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911F022107AB32006BDF18 /* User.swift */; };
+		49911F052107AB45006BDF18 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49911F042107AB45006BDF18 /* Message.swift */; };
+		49C6E2E52159DED9002AEB5E /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C6E2E42159DED9002AEB5E /* FirebaseCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		492D368C2140CCEB008338BB /* ChatSentMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSentMessageViewCell.swift; sourceTree = "<group>"; };
+		492D368E2140CCFD008338BB /* ChatReceivedMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatReceivedMessageViewCell.swift; sourceTree = "<group>"; };
+		495EF21C2108A73E00139466 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		495EF21E2108A89D00139466 /* ChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
 		496AF0E32103C6420088272F /* acaocontabilidade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acaocontabilidade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496AF0E62103C6420088272F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		496AF0E82103C6420088272F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		496AF0EB2103C6420088272F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496AF0EE2103C6420088272F /* acaocontabilidade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = acaocontabilidade.xcdatamodel; sourceTree = "<group>"; };
 		496AF0F02103C6440088272F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496AF0F32103C6440088272F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496AF0F52103C6440088272F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496AF0FB2103C8640088272F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49911ED72103E40D006BDF18 /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		49911EDB2103E779006BDF18 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		49911EDF21050CC3006BDF18 /* SiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteViewController.swift; sourceTree = "<group>"; };
+		49911EE121051450006BDF18 /* DocumentosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentosViewController.swift; sourceTree = "<group>"; };
+		49911EE32105FBD5006BDF18 /* BoasVindasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoasVindasViewController.swift; sourceTree = "<group>"; };
+		49911EFC2107A03B006BDF18 /* ConversasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewController.swift; sourceTree = "<group>"; };
+		49911F002107A36F006BDF18 /* ConversasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewCell.swift; sourceTree = "<group>"; };
+		49911F022107AB32006BDF18 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		49911F042107AB45006BDF18 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		49C6E2DE2159DEC3002AEB5E /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C6E2E02159DEC3002AEB5E /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C6E2E22159DEC3002AEB5E /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C6E2E42159DED9002AEB5E /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55806048A006C8EDBC77563B /* Pods-acaocontabilidade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaocontabilidade.release.xcconfig"; path = "Pods/Target Support Files/Pods-acaocontabilidade/Pods-acaocontabilidade.release.xcconfig"; sourceTree = "<group>"; };
+		AB71E382EDB64E82B9682077 /* Pods_acaocontabilidade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acaocontabilidade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B347E46797CE64A99945EE /* Pods-acaocontabilidade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaocontabilidade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-acaocontabilidade/Pods-acaocontabilidade.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C6E2E52159DED9002AEB5E /* FirebaseCore.framework in Frameworks */,
+				0A910E180819A9B87E397F09 /* Pods_acaocontabilidade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				496AF0E52103C6420088272F /* acaocontabilidade */,
 				496AF0E42103C6420088272F /* Products */,
+				962225D29AAF1931CAF0D0CF /* Pods */,
+				EFF6505A14E4BE27A274165B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,73 @@
 		496AF0E52103C6420088272F /* acaocontabilidade */ = {
 			isa = PBXGroup;
 			children = (
+				49911ED62103E338006BDF18 /* Controller */,
+				49911ED52103E334006BDF18 /* View */,
+				49911ED42103E32F006BDF18 /* Model */,
 				496AF0E62103C6420088272F /* AppDelegate.swift */,
-				496AF0E82103C6420088272F /* ViewController.swift */,
-				496AF0EA2103C6420088272F /* Main.storyboard */,
 				496AF0F02103C6440088272F /* Assets.xcassets */,
-				496AF0F22103C6440088272F /* LaunchScreen.storyboard */,
 				496AF0F52103C6440088272F /* Info.plist */,
 				496AF0ED2103C6420088272F /* acaocontabilidade.xcdatamodeld */,
+				496AF0FB2103C8640088272F /* GoogleService-Info.plist */,
 			);
 			path = acaocontabilidade;
+			sourceTree = "<group>";
+		};
+		49911ED42103E32F006BDF18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49911F022107AB32006BDF18 /* User.swift */,
+				49911F042107AB45006BDF18 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49911ED52103E334006BDF18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				496AF0EA2103C6420088272F /* Main.storyboard */,
+				496AF0F22103C6440088272F /* LaunchScreen.storyboard */,
+				49911F002107A36F006BDF18 /* ConversasTableViewCell.swift */,
+				495EF21C2108A73E00139466 /* ChatTableViewCell.swift */,
+				492D368C2140CCEB008338BB /* ChatSentMessageViewCell.swift */,
+				492D368E2140CCFD008338BB /* ChatReceivedMessageViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49911ED62103E338006BDF18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49911ED72103E40D006BDF18 /* CustomNavigationViewController.swift */,
+				49911EDB2103E779006BDF18 /* CadastroViewController.swift */,
+				49911EDF21050CC3006BDF18 /* SiteViewController.swift */,
+				49911EE121051450006BDF18 /* DocumentosViewController.swift */,
+				49911EE32105FBD5006BDF18 /* BoasVindasViewController.swift */,
+				49911EFC2107A03B006BDF18 /* ConversasTableViewController.swift */,
+				495EF21E2108A89D00139466 /* ChatTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		962225D29AAF1931CAF0D0CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B347E46797CE64A99945EE /* Pods-acaocontabilidade.debug.xcconfig */,
+				55806048A006C8EDBC77563B /* Pods-acaocontabilidade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFF6505A14E4BE27A274165B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49C6E2E42159DED9002AEB5E /* FirebaseCore.framework */,
+				49C6E2DE2159DEC3002AEB5E /* FirebaseAuth.framework */,
+				49C6E2E02159DEC3002AEB5E /* FirebaseCore.framework */,
+				49C6E2E22159DEC3002AEB5E /* FirebaseDatabase.framework */,
+				AB71E382EDB64E82B9682077 /* Pods_acaocontabilidade.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 496AF0F82103C6440088272F /* Build configuration list for PBXNativeTarget "acaocontabilidade" */;
 			buildPhases = (
+				742CC1E8796AD2BFBD7E5C34 /* [CP] Check Pods Manifest.lock */,
 				496AF0DF2103C6420088272F /* Sources */,
 				496AF0E02103C6420088272F /* Frameworks */,
 				496AF0E12103C6420088272F /* Resources */,
+				6C33D18E75D01F7B6408BC10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496AF0F42103C6440088272F /* LaunchScreen.storyboard in Resources */,
+				496AF0FC2103C8640088272F /* GoogleService-Info.plist in Resources */,
 				496AF0F12103C6440088272F /* Assets.xcassets in Resources */,
 				496AF0EC2103C6420088272F /* Main.storyboard in Resources */,
 			);
@@ -133,14 +233,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C33D18E75D01F7B6408BC10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-acaocontabilidade/Pods-acaocontabilidade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-acaocontabilidade/Pods-acaocontabilidade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		742CC1E8796AD2BFBD7E5C34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-acaocontabilidade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		496AF0DF2103C6420088272F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496AF0E92103C6420088272F /* ViewController.swift in Sources */,
+				49911EFD2107A03B006BDF18 /* ConversasTableViewController.swift in Sources */,
+				49911EE021050CC3006BDF18 /* SiteViewController.swift in Sources */,
 				496AF0EF2103C6420088272F /* acaocontabilidade.xcdatamodeld in Sources */,
+				49911ED82103E40D006BDF18 /* CustomNavigationViewController.swift in Sources */,
+				492D368F2140CCFD008338BB /* ChatReceivedMessageViewCell.swift in Sources */,
+				49911EE42105FBD5006BDF18 /* BoasVindasViewController.swift in Sources */,
+				49911F012107A36F006BDF18 /* ConversasTableViewCell.swift in Sources */,
+				49911F052107AB45006BDF18 /* Message.swift in Sources */,
 				496AF0E72103C6420088272F /* AppDelegate.swift in Sources */,
+				49911EDC2103E779006BDF18 /* CadastroViewController.swift in Sources */,
+				495EF21D2108A73E00139466 /* ChatTableViewCell.swift in Sources */,
+				492D368D2140CCEB008338BB /* ChatSentMessageViewCell.swift in Sources */,
+				49911F032107AB32006BDF18 /* User.swift in Sources */,
+				495EF21F2108A89D00139466 /* ChatTableViewController.swift in Sources */,
+				49911EE221051450006BDF18 /* DocumentosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +443,19 @@
 		};
 		496AF0F92103C6440088272F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B347E46797CE64A99945EE /* Pods-acaocontabilidade.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6UGJL64BN;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = acaocontabilidade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.penseapp.acaocontabilidade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.penseapp.acaocontabilidade2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,16 +464,19 @@
 		};
 		496AF0FA2103C6440088272F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55806048A006C8EDBC77563B /* Pods-acaocontabilidade.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6UGJL64BN;
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = acaocontabilidade/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.penseapp.acaocontabilidade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.penseapp.acaocontabilidade2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

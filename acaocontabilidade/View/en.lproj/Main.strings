@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "17j-zM-1vv"; */
+"17j-zM-1vv.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Cadastrar"; ObjectID = "2eI-r2-cW6"; */
+"2eI-r2-cW6.normalTitle" = "Cadastrar";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "4Nt-aC-Lcz"; */
+"4Nt-aC-Lcz.placeholder" = "Senha";
+
+/* Class = "UITabBarItem"; title = "Documentos"; ObjectID = "9NI-Ig-njP"; */
+"9NI-Ig-njP.title" = "Documentos";
+
+/* Class = "UITabBarItem"; title = "Conversas"; ObjectID = "Hjl-qi-ngh"; */
+"Hjl-qi-ngh.title" = "Conversas";
+
+/* Class = "UITextField"; placeholder = "Empresa"; ObjectID = "Mmw-NJ-uVB"; */
+"Mmw-NJ-uVB.placeholder" = "Empresa";
+
+/* Class = "UITextField"; placeholder = "Nome pessoal"; ObjectID = "NfM-gM-szT"; */
+"NfM-gM-szT.placeholder" = "Nome pessoal";
+
+/* Class = "UITabBarItem"; title = "Site"; ObjectID = "SL9-NJ-eEm"; */
+"SL9-NJ-eEm.title" = "Site";
+
+/* Class = "UITextField"; placeholder = "Obrigatório"; ObjectID = "Wfi-Zo-WmP"; */
+"Wfi-Zo-WmP.placeholder" = "Obrigatório";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Zg9-nw-yje"; */
+"Zg9-nw-yje.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Criar uma conta na Ação"; ObjectID = "goA-hc-sGg"; */
+"goA-hc-sGg.normalTitle" = "Criar uma conta na Ação";
+
+/* Class = "UIButton"; normalTitle = "Entrar"; ObjectID = "mFV-e4-xJu"; */
+"mFV-e4-xJu.normalTitle" = "Entrar";
